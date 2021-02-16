@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>Mon site</title>
-        <description>Ceci est la description </description>
+        <title>Le Podcast du Droit International</title>
+        <description>Ceci est la description du podcast de PdB.</description>
         <lastBuildDate>Sat, 07 Sep 2002 00:00:01 GMT</lastBuildDate>
-        <link>http://www.example.org</link>
+        <link>https://b-bnte.github.io/LePodcastDuDroitInternational/</link>
         <item>
-            <title>Actualité N°1</title>
-            <description>Ceci est ma première actualité</description>
+            <title>Épisode N°1</title>
+            <description>Ceci est le premier podcast</description>
             <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
             <guid>https://b-bnte.github.io/LePodcastDuDroitInternational/podcasts/free-instru.mp3</guid>
-        </item>
-        <item>
-            <title>Actualité N°2</title>
-            <description>Ceci est ma seconde actualité</description>
-            <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <link>http://www.example.org/actu2</link>
         </item>
     </channel>
 </rss>
