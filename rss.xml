@@ -17,7 +17,7 @@
             <title>Épisode N°1</title>
             <description>Ceci est le premier podcast</description>
             <pubDate>Sat, 07 Sep 2002 00:00:01 GMT</pubDate>
-            <enclosure type="audio/mpeg" url="https://b-bnte.github.io/LePodcastDuDroitInternational/podcasts/free-instru.mp3"/>
+            <enclosure type="audio/mp3" url="https://b-bnte.github.io/LePodcastDuDroitInternational/podcasts/free-instru.mp3"/>
         </item>
     </channel>
 </rss>
