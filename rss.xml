@@ -12,6 +12,7 @@
           <itunes:name>Pauline de Bilbao</itunes:name>
           <itunes:email>bastien.bonte@outlook.fr</itunes:email>
         </itunes:owner>
+        <itunes:category text="Droit" /> 
         <item>
             <guid>https://b-bnte.github.io/LePodcastDuDroitInternational/podcasts/free-instru.mp3</guid>
             <title>Épisode N°1</title>
