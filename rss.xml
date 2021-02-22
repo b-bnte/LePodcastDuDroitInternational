@@ -7,7 +7,7 @@
         <description>Ceci est la description du podcast de PdB.</description>
         <language>fr</language>
         <itunes:author>Pauline de Bilbao</itunes:author>
-        <itunes:image src="images/logos/cover-podcast.png" />
+        <itunes:image href="https://b-bnte.github.io/LePodcastDuDroitInternational/images/logos/cover-podcast.png" />
         <itunes:owner>
           <itunes:name>Pauline de Bilbao</itunes:name>
           <itunes:email>bastien.bonte@outlook.fr</itunes:email>
