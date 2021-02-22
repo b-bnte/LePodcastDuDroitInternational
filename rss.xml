@@ -7,6 +7,7 @@
         <description>Ceci est la description du podcast de PdB.</description>
         <language>fr</language>
         <itunes:author>Pauline de Bilbao</itunes:author>
+        <itunes:image href="https://serialpodcast.org/sites/all/modules/custom/serial/img/serial-itunes-logo.png" />
         <item>
             <guid>https://b-bnte.github.io/LePodcastDuDroitInternational/podcasts/free-instru.mp3</guid>
             <title>Épisode N°1</title>
