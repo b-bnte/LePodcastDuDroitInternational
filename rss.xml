@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
         <title>Le Podcast du Droit International</title>
         <link>https://b-bnte.github.io/LePodcastDuDroitInternational/</link>
         <description>Ceci est la description du podcast de PdB.</description>
         <language>fr</language>
-        <author>Pauline de Bilbao</author>
+        <itunes:author>Pauline de Bilbao</itunes:author>
         <item>
             <guid>https://b-bnte.github.io/LePodcastDuDroitInternational/podcasts/free-instru.mp3</guid>
             <title>Épisode N°1</title>
