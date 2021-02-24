@@ -1,4 +1,105 @@
-p
+header
 {
-    color: black;
+    color: #a7cccc;
+    background: #1c1c1c;
+    padding: 2%;
+    position: sticky;
+    top: 0;
+    z-index:2;
+    text-align : center;
 }
+
+.logo-cover
+{
+    width: 16%;
+}
+
+body
+{
+    background: #1c1c1c;
+    color: #e6e6e6;
+    z-index:1;
+}
+
+body img /* ombre du logo */
+{
+    box-shadow: 8px 8px 8px black;
+}
+
+.conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10%;
+    margin-top: 1%;
+}
+
+.presentation_pauline
+{
+    width: 40%;
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 40%;
+    align-self: flex-start;
+}
+
+.presentation_pauline h2
+{
+    color: #a7cccc;
+}
+
+.mail
+{
+    color: #a7cccc;
+}
+
+
+.podcast_list
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 1%;
+}
+
+.podcasts
+{
+    margin: auto;
+}
+
+.podcasts h2
+{
+    color: #a7cccc;
+    margin: 0;
+}
+
+time
+{
+    color: #333333;
+}
+
+.line
+{
+    border-bottom: 2px solid #333333;
+    display: block;
+}
+
+.vertical-line
+{
+    border-left: 4px solid #333333;
+    display: block;
+}
+
+audio
+{
+    margin: auto;
+    margin-top: 1%;
+    width: 100%;
+}
+/*
+overflow: hidden;
+ 
+*/
+
