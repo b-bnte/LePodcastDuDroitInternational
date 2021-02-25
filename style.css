@@ -13,6 +13,7 @@ header
 .logo-cover
 {
     width: 16%;
+    box-shadow: 8px 8px 8px black; /* ombre */
 }
 
 body
@@ -22,12 +23,7 @@ body
     z-index:1;
 }
 
-body img /* ombre du logo */
-{
-    box-shadow: 8px 8px 8px black;
-}
-
-.conteneur
+.conteneurPrincipal
 {
     display: flex;
     flex-wrap: wrap;
@@ -37,7 +33,7 @@ body img /* ombre du logo */
     margin-top: 1%;
 }
 
-.presentation_pauline
+.paulinePresentation
 {
     width: 40%;
     position: -webkit-sticky; /* for Safari */
@@ -46,7 +42,7 @@ body img /* ombre du logo */
     align-self: flex-start;
 }
 
-.presentation_pauline h2
+.paulinePresentation h2
 {
     color: #a7cccc;
 }
@@ -57,7 +53,7 @@ body img /* ombre du logo */
 }
 
 
-.podcast_list
+.listOfPodcasts
 {
     display: flex;
     flex-direction: column;
@@ -65,12 +61,7 @@ body img /* ombre du logo */
     padding: 1%;
 }
 
-.podcasts
-{
-    margin: auto;
-}
-
-.podcasts h2
+.listOfPodcasts h2
 {
     color: #a7cccc;
     margin: 0;
@@ -81,7 +72,7 @@ time
     color: #333333;
 }
 
-.line
+.horizontalLineForSeparatePodcasts
 {
     border-bottom: 2px solid #333333;
     display: block;
@@ -99,6 +90,25 @@ audio
     margin: auto;
     margin-top: 1%;
     width: 100%;
+}
+
+.podcastDescription_hide
+{
+    text-align: justify;
+    height: 75px;
+    overflow: hidden;
+    cursor: pointer;
+    /* Set gradient couleur sur police (effet disrition text) */
+    background: -webkit-linear-gradient(#e6e6e6, #1c1c1c);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.podcastDescription_show
+{
+    height: auto;
+    text-align: justify;
+    cursor: pointer;
 }
 
 /*
