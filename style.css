@@ -27,7 +27,7 @@ body
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin: 10%;
     margin-top: 1%;
