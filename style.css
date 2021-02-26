@@ -111,12 +111,29 @@ audio
     cursor: pointer;
 }
 
-/*
-*style audio tag
-*/
-
-/*
-overflow: hidden;
- 
-*/
-
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    .logo-cover
+    {
+        width: 40%;
+        box-shadow: 8px 8px 8px black; /* ombre */
+    }
+    .conteneurPrincipal
+    {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .paulinePresentation
+    {
+        width: auto;
+        position: relative;
+    }
+    
+    .listOfPodcasts
+    {
+        width: auto;
+    }
+}
