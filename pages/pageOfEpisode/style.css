@@ -1,0 +1,58 @@
+header
+{
+    color: #a7cccc;
+    background: #1c1c1c;
+}
+
+.logo-cover
+{
+    width: 16%;
+    box-shadow: 8px 8px 8px black; /* ombre */
+}
+
+body
+{
+    background: #1c1c1c;
+    color: #e6e6e6;
+    font-family: Arial;
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.horizontalLine
+{
+    border-bottom: 2px solid #333333;
+    display: block;
+    padding-top: 1%;
+}
+
+h4
+{
+    color: #e6e6e6;
+}
+
+p
+{
+    text-align: justify;
+}
+
+time
+{
+    color: #333333;
+}
+
+.audio
+{
+    width: 100%;
+}
+
+/* règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    body
+    {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}

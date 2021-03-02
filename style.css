@@ -21,6 +21,7 @@ body
     background: #1c1c1c;
     color: #e6e6e6;
     z-index:1;
+    font-family: Arial;
 }
 
 .conteneurPrincipal
@@ -40,6 +41,7 @@ body
     position: sticky;
     top: 40%;
     align-self: flex-start;
+    text-align: justify;
 }
 
 .paulinePresentation h2
@@ -61,9 +63,16 @@ body
     padding: 1%;
 }
 
-.listOfPodcasts h2
+.listOfPodcasts h3
 {
     color: #a7cccc;
+    margin: 0;
+}
+
+.listOfPodcasts a
+{
+    color: #a7cccc;
+    text-decoration: none;
     margin: 0;
 }
 
@@ -111,7 +120,7 @@ audio
     cursor: pointer;
 }
 
-/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+/* règles si la fenêtre fait au plus 1024px de large */
 @media screen and (max-width: 1024px)
 {
     .logo-cover
