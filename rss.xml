@@ -5,15 +5,15 @@
         <title>Le podcast du droit international</title>
         <link>https://lepodcastdudroitinternational.fr</link>
         <language>fr</language>
-        <itunes:author>Pauline</itunes:author>
+        <itunes:author>Pauline de Bilbao</itunes:author>
         <itunes:summary>Bienvenue sur le podcast du droit international, le podcast consacré à la recherche juridique en droit international public. Chaque épisode se présentera sous la forme d’un entretien avec un.e doctorant.e, un.e docteur.e, un.e chercheur.e ou un.e enseignant.e qui nous parlera de son sujet de recherche. Toutes les deux semaines, retrouvez un épisode sur le site, les plateformes de diffusion (…) ainsi que sur Youtube. Retrouvez également le podcast sur les réseaux sociaux (Twitter, Linkedin) pour être informé.e des futures sorties et des futurs invités !</itunes:summary>
+        <description>Bienvenue sur le podcast du droit international, le podcast consacré à la recherche juridique en droit international public. Chaque épisode se présentera sous la forme d’un entretien avec un.e doctorant.e, un.e docteur.e, un.e chercheur.e ou un.e enseignant.e qui nous parlera de son sujet de recherche. Toutes les deux semaines, retrouvez un épisode sur le site, les plateformes de diffusion (…) ainsi que sur Youtube. Retrouvez également le podcast sur les réseaux sociaux (Twitter, Linkedin) pour être informé.e des futures sorties et des futurs invités !</description>
         <itunes:owner>
-            <itunes:name>Pauline</itunes:name>
+            <itunes:name>Pauline de Bilbao</itunes:name>
             <itunes:email>lepodcastdudroitinternational@gmail.com</itunes:email>
         </itunes:owner>
         <itunes:image href="https://lepodcastdudroitinternational.fr/images/logos/cover-logo.png" />
         <itunes:category text="Podcasting"/>
-        <itunes:type>episodic</itunes:type>
         
         <item>
             <guid>EP1_RLM</guid>
