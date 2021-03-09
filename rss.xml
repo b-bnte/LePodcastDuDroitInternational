@@ -1,32 +1,29 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-<channel>
-  <title>Le podcast du droit international</title>
-  <link>https://lepodcastdudroitinternational.fr</link>
-  <language>fr</language>
-  <copyright></copyright>
-  <itunes:subtitle></itunes:subtitle>
-  <itunes:author>Pauline</itunes:author>
-  <itunes:summary>Bienvenue sur le site internet du podcast du droit international, le podcast consacré à la recherche juridique en droit international public. Chaque épisode se présentera sous la forme d’un entretien avec un.e doctorant.e, un.e docteur.e, un.e chercheur.e ou un.e enseignant.e qui nous parlera de son sujet de recherche. Toutes les deux semaines, retrouvez un épisode sur le site, les plateformes de diffusion (…) ainsi que sur Youtube. Retrouvez également le podcast sur les réseaux sociaux (Twitter, Linkedin) pour être informé.e des futures sorties et des futurs invités !</itunes:summary>
-  <itunes:owner>
-    <itunes:name>Pauline</itunes:name>
-    <itunes:email>lepodcastdudroitinternational@gmail.com</itunes:email>
-  </itunes:owner>
-  <itunes:image href="https://lepodcastdudroitinternational.fr/images/logos/cover-logo.png" />
-  <itunes:category text="Podcasting"/>
-  
-    <item>
-      <title>EP1 - Les « normes grises » du droit international public</title>
-      <itunes:author>Pauline de Bilbao</itunes:author>
-      <itunes:subtitle></itunes:subtitle>
-      <itunes:summary>résumé du podcast</itunes:summary>
-      <itunes:image href="https://lepodcastdudroitinternational.fr/images/logos/cover-logo.png" />
-      <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/EP1_RLM.mp3" length="22161134" type="audio/mpeg"/>
-      <guid>EP1_RLM</guid>
-      <pubDate>Tue Mar 09 2021 14:45:26 GMT+0100 (CET)</pubDate>
-      <itunes:duration>23:05</itunes:duration>
-    </item>
-  
-</channel>
+
+    <channel>
+        <title>Le podcast du droit international</title>
+        <link>https://lepodcastdudroitinternational.fr</link>
+        <language>fr</language>
+        <itunes:author>Pauline</itunes:author>
+        <itunes:summary>Bienvenue sur le podcast du droit international, le podcast consacré à la recherche juridique en droit international public. Chaque épisode se présentera sous la forme d’un entretien avec un.e doctorant.e, un.e docteur.e, un.e chercheur.e ou un.e enseignant.e qui nous parlera de son sujet de recherche. Toutes les deux semaines, retrouvez un épisode sur le site, les plateformes de diffusion (…) ainsi que sur Youtube. Retrouvez également le podcast sur les réseaux sociaux (Twitter, Linkedin) pour être informé.e des futures sorties et des futurs invités !</itunes:summary>
+        <itunes:owner>
+            <itunes:name>Pauline</itunes:name>
+            <itunes:email>lepodcastdudroitinternational@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:image href="https://lepodcastdudroitinternational.fr/images/logos/cover-logo.png" />
+        <itunes:category text="Podcasting"/>
+        <itunes:type>episodic</itunes:type>
+        
+        <item>
+            <guid>EP1_RLM</guid>
+            <title>EP1 - Les « normes grises » du droit international public</title>
+            <description>résumé du podcast</description>
+            <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/EP1_RLM.mp3" length="22161134" type="audio/mpeg"/>
+            <pubDate>Thu, 10 Mar 2021 10:30:00 GMT</pubDate>
+            <itunes:duration>23:05</itunes:duration>
+        </item>
+    
+    </channel>
 </rss>
