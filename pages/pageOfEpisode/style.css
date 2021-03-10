@@ -1,12 +1,14 @@
 header
 {
-    color: #a7cccc;
+    color: #F8E08E;
     background: #1c1c1c;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .logo-cover
 {
-    width: 16%;
+    width: 20%;
     box-shadow: 8px 8px 8px black; /* ombre */
 }
 
@@ -16,8 +18,37 @@ body
     color: #e6e6e6;
     font-family: Arial;
     padding-top: 2%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20%;
+}
+
+p
+{
+    text-align: justify;
+}
+
+body h4
+{
+    color: #F8E08E;
+}
+
+body h3
+{
+    color: #e6e6e6;
+}
+
+#conteneurPrincipal
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.element1
+{
+    padding-right: 5%;
+    max-width: 50%;
 }
 
 .horizontalLine
@@ -25,16 +56,6 @@ body
     border-bottom: 2px solid #333333;
     display: block;
     padding-top: 1%;
-}
-
-h4
-{
-    color: #e6e6e6;
-}
-
-p
-{
-    text-align: justify;
 }
 
 time
@@ -54,5 +75,25 @@ time
     {
         padding-left: 2%;
         padding-right: 2%;
+    }
+    
+    #conteneurPrincipal
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .element1
+    {
+        max-width: 100%;
+        padding-right: 0%;
+    }
+    
+    header
+    {
+        color: #F8E08E;
+        background: #1c1c1c;
+        padding-left: 0%;
+        padding-right: 0%;
     }
 }
