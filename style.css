@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'), url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
 header
 {
     color: #a7cccc;
@@ -40,8 +42,6 @@ body
     width: 40%;
     position: -webkit-sticky; /* for Safari */
     position: sticky;
-    top: 40%;
-    align-self: flex-start;
     text-align: justify;
 }
 
@@ -59,16 +59,18 @@ body
 
 .listOfPodcasts
 {
+    width: 40%;
+    padding-top: 2%;
     display: flex;
     flex-direction: column;
-    width: 40%;
-    padding: 1%;
 }
 
 .listOfPodcasts h3
 {
     color: #F8E08E;
     margin: 0;
+    text-decoration: underline;
+    /*font-family: 'Raleway', sans-serif;*/
 }
 
 .listOfPodcasts a
@@ -93,7 +95,7 @@ time
 {
     border-left: 4px solid #333333;
     display: block;
-    margin: 1%;
+    margin: 2%;
 }
 
 audio
@@ -106,7 +108,8 @@ audio
 .podcastDescription_hide
 {
     text-align: justify;
-    height: 75px;
+    /*height: 75px;*/
+    height: 4.5em;
     overflow: hidden;
     cursor: pointer;
     /* Set gradient couleur sur police (effet disrition text) */
@@ -117,9 +120,15 @@ audio
 
 .podcastDescription_show
 {
-    height: auto;
     text-align: justify;
     cursor: pointer;
+}
+
+img.logoTitlePodcast {
+    height: 22px;
+    padding: 1%;
+    vertical-align: -40%;
+    padding-left: 0%;
 }
 
 /* règles si la fenêtre fait au plus 1024px de large */
@@ -128,7 +137,7 @@ audio
     .logo-cover
     {
         width: 40%;
-        box-shadow: 8px 8px 8px black; /* ombre */
+        box-shadow: 8px 8px 8px rgb(75, 35, 35); /* ombre */
     }
     .conteneurPrincipal
     {
@@ -148,3 +157,5 @@ audio
         width: auto;
     }
 }
+
+
