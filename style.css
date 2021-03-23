@@ -51,6 +51,14 @@ body
     text-align: left;
 }
 
+
+
+.textPauline{
+    color: #e6e6e6;
+    font-size: x-small;
+    margin-top: -16px;
+}
+
 .mail
 {
     color: #D29F13;
@@ -154,10 +162,12 @@ img.logoTitlePodcast {
     
     .listOfPodcasts
     {
-        width: auto;
+        width: 100%;
     }
     
-    
+    .textPauline{
+        margin-top: -10px;
+    }
 }
 
 
