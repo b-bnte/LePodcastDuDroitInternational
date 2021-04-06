@@ -27,7 +27,7 @@
         
         <item>
             <guid>EP2_GB</guid>
-            <title>EP2 - Gaëtan Balan - Des programmes de recherche pour une application concrète du droit de la mer</title>
+            <title>EP2 - Gaëtan Balan - L’enfermement des passagers clandestins à bord des navires marchands</title>
             <description>Gaëtan Balan revient sur son parcours et sur son rôle au sein des différents programmes de recherche auxquels il a pu participer. Doctorant au sein du programme ERC Human Sea – Rendre la mer humaine, il nous présente les axes de recherche de cet ambitieux programme dirigé par Patrick Chaumette. Gaëtan a notamment travaillé sur le rôle de l’Union européenne et de ses États-membres dans la lutte contre les activités illicites en mer.
                 
                 Intégré comme post-doctorant au programme de recherche MERCRO dirigé par Kiara Neri et financé par l’ANR, Gaëtan nous explique les enjeux de ce programme international qui s’intéresse à la superposition des régimes de police en mer et aux problématiques que cela peut engendrer quant à leur efficacité. Le programme a déjà établi une liste des normes internationales de police applicables en mer et un questionnaire destinés à la diffusion auprès des acteurs et utilisateurs des espaces maritimes.
@@ -36,9 +36,16 @@
             <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/EP2_GB.mp3" length="21360325" type="audio/mpeg"/>
             <pubDate>Wed, 24 Mar 2021 12:00:00 GMT</pubDate>
             <itunes:duration>22:15</itunes:duration>
-            
         </item>
-        
+
+        <item>
+            <guid>EP3_AP</guid>
+            <title>EP3 - Almodis Peyre - L'enfermement des passagers clandestins à bord des navires marchands</title>
+            <description>Revenant d’abord sur son parcours et son rôle au sein du projet MERCRO, Almodis Peyre nous présente ensuite son sujet de thèse qui porte sur l’enfermement des passagers clandestins à bord des navires marchands. Son sujet interroge notamment sur la fonction du Droit quant aux pouvoirs des acteurs privés (capitaine, armateur, transporteur, assureur) qui ne sont plus uniquement les réceptacles de la loi mais qui en changent les usages. Au niveau international, la situation des passagers clandestins et leur consignation quasi-automatique soulève également des interrogations concernant les droits humains et la responsabilité des États dans la régulation des décisions des acteurs privés à bord des navires marchands.</description>
+            <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/EP3_AP.mp3" length="25323414" type="audio/mpeg"/>
+            <pubDate>Wed, 7 Apr 2021 12:00:00 GMT</pubDate>
+            <itunes:duration>26:23</itunes:duration>
+        </item>
     
     </channel>
 </rss>
