@@ -46,6 +46,15 @@
             <pubDate>Wed, 7 Apr 2021 12:00:00 GMT</pubDate>
             <itunes:duration>26:23</itunes:duration>
         </item>
+
+        <item>
+            <guid>EP4_LH</guid>
+            <title>EP4 - Laurine Harbuta - L'État pluridémotique, contribution à l'étude d'une nouvelle théorie de l'État</title>
+            <description>Laurine Harbuta revient avec nous sur son sujet de thèse qui porte sur l’État pluridémotique en droit constitutionnel. Après un parcours universitaire tourné vers le droit international, elle se concentre sur le droit constitutionnel français pour remettre en question la théorie de l’État-nation. Son sujet amène à s’interroger sur les droits reconnus aux différents peuples qui peuvent composer un État et sur le pluralisme juridique au sein d’un État.</description>
+            <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/EP4_LH.mp3" length="22743352" type="audio/mpeg"/>
+            <pubDate>Wed, 21 Apr 2021 12:00:00 GMT</pubDate>
+            <itunes:duration>23:41</itunes:duration>
+        </item>
     
     </channel>
 </rss>
