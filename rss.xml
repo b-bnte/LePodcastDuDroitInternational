@@ -55,6 +55,15 @@
             <pubDate>Wed, 21 Apr 2021 12:00:00 GMT</pubDate>
             <itunes:duration>23:41</itunes:duration>
         </item>
+
+        <item>
+            <guid>EP5_LHS</guid>
+            <title>EP5 - Liliana Haquin Sáenz - Le sort des minorités en droit international contemporain</title>
+            <description>Dans cet épisode, Liliana Haquin Sáenz, docteure en droit international, revient avec nous sur son sujet de thèse portant sur le sort réservé aux minorités en droit international. Le but de son étude était de démontrer qu'il existerait un droit à l'autonomie des minorités au niveau international. Définition d'une minorité, textes internationaux et régionaux de protection des minorités, protection juridictionnelle des minorités, autant de sujets abordés par Liliana au travers de divers exemples tels que les Kurdes, les Rohingyas ou les Roms.</description>
+            <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/EP5_LHS.mp3" length="31508792" type="audio/mpeg"/>
+            <pubDate>Wed, 5 May 2021 12:00:00 GMT</pubDate>
+            <itunes:duration>32:49</itunes:duration>
+        </item>
     
     </channel>
 </rss>
