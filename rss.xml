@@ -82,6 +82,15 @@
             <pubDate>Wed, 2 June 2021 12:00:00 GMT</pubDate>
             <itunes:duration>31:09</itunes:duration>
         </item>
+
+        <item>
+            <guid>EP8_HP</guid>
+            <title>EP8 - Hugo Peter - L'arsenalisation de l'espace extra-atmosphérique</title>
+            <description>Hugo Peter, doctorant en droit spatial, nous présente ce qu'est le droit spatial. Il revient par la suite sur son sujet de thèse qui porte sur l'arsenalisation de l'espace extra-atmosphérique. Sources, enjeux, rôle des États et des organisaitons, importance de la définition et de la qualificaiton d'une arme extra-atmosphérique, il nous présente pourquoi selon lui l'arsenalisation de l'espace est dangereuse.</description>
+            <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/EP8_HP.mp3" length="32437079" type="audio/mpeg"/>
+            <pubDate>Wed, 16 June 2021 12:00:00 GMT</pubDate>
+            <itunes:duration>33:47</itunes:duration>
+        </item>
     
     </channel>
 </rss>
