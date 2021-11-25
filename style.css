@@ -168,4 +168,35 @@ img.logoTitlePodcast {
     }
 }
 
+/* Style button */
+
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    color: #8040bf;
+    transition: 0.25s;
+    border-radius: 8px;
+}
+
+.raise_pressed {
+    box-shadow: 0 0.5em 0.5em -0.3em #8040bf;
+    border-color: #8040bf;
+    background-color: #8040bf;
+    color: #1c1c1c;
+    transform: translateY(-0.25em);
+}
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.3em #8040bf;
+    border-color: #8040bf;
+    background-color: #8040bf;
+    color: #1c1c1c;
+    transform: translateY(-0.25em);
+}
 

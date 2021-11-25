@@ -84,97 +84,117 @@
             <span class="vertical-line"></span>
             
             <div class="listOfPodcasts">
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-03-10">10/03/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep1.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 1 - Les « normes grises » du droit international public </a></h3>
-                    <p><strong>Rosalie Le Moing</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_1" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet échange il sera question des « normes grises » du droit international public. Que sont-elles ? D’où viennent-elles ? Quelles sont les conséquences de leur existence en droit international ? Autant de questions sur lesquelles travaille Rosalie et auxquelles elle tente de nous apporter des réponses.
-                    Revenant d’abord sur son parcours et sur son inclination pour la recherche, Rosalie nous présente ensuite plusieurs causes de l’existence des « normes grises » telles que la source de la norme (une coutume ambiguë ou un traité évasif), la codification de la coutume, ou encore l’interprétation d’une norme par les États, les juges ou encore les traducteurs interprètes. Enfin, elle soulève plusieurs interrogations quant aux conséquences de l’existence des « normes grises » sur la place du juge en droit international, sur la sécurité juridique et la prévisibilité du droit mais aussi sur la qualité du système juridique.</p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
-                </div>
-                
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-03-24">24/03/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep2.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 2 - Des programmes de recherche pour une application concrète du droit de la mer</a></h3>
-                    <p><strong>Gaëtan Balan</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_2" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Gaëtan Balan revient sur son parcours et sur son rôle au sein des différents programmes de recherche auxquels il a pu participer. Doctorant au sein du programme ERC Human Sea – Rendre la mer humaine, il nous présente les axes de recherche de cet ambitieux programme dirigé par Patrick Chaumette. Gaëtan a notamment travaillé sur le rôle de l’Union européenne et de ses États-membres dans la lutte contre les activités illicites en mer.<br>
-                    Intégré comme post-doctorant au programme de recherche MERCRO dirigé par Kiara Neri et financé par l’ANR, Gaëtan nous explique les enjeux de ce programme international qui s’intéresse à la superposition des régimes de police en mer et aux problématiques que cela peut engendrer quant à leur efficacité. Le programme a déjà établi une liste des normes internationales de police applicables en mer et un questionnaire destinés à la diffusion auprès des acteurs et utilisateurs des espaces maritimes.<br>
-                    Il nous parle également à la fin d’un de ces sujets de recherche actuel qu’il mène en collaboration avec Kristoffer Svensen, les mesures de polices mises en œuvre dans le cadre du deep sea mining.</p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
+                <div class="buttons">
+                    <button id="btn_season1" class="raise" onclick="showSeason(this.id, 'season1')"> Saison 1</button>
+                    <button id="btn_season2" class="raise_pressed" onclick="showSeason(this.id, 'season2')"> Saison 2</button>
                 </div>
 
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-04-07">07/04/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep3.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 3 - L’enfermement des passagers clandestins à bord des navires marchands</a></h3>
-                    <p><strong>Almodis Peyre</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_3" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Revenant d’abord sur son parcours et son rôle au sein du projet MERCRO, Almodis Peyre nous présente ensuite son sujet de thèse qui porte sur l’enfermement des passagers clandestins à bord des navires marchands. Son sujet interroge notamment sur la fonction du Droit quant aux pouvoirs des acteurs privés (capitaine, armateur, transporteur, assureur) qui ne sont plus uniquement les réceptacles de la loi mais qui en changent les usages. Au niveau international, la situation des passagers clandestins et leur consignation quasi-automatique soulève également des interrogations concernant les droits humains et la responsabilité des États dans la régulation des décisions des acteurs privés à bord des navires marchands.</p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
+                <div id="season1" style=display:none>
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-03-10">10/03/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep1.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 1 - Les « normes grises » du droit international public </a></h3>
+                        <p><strong>Rosalie Le Moing</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_1" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet échange il sera question des « normes grises » du droit international public. Que sont-elles ? D’où viennent-elles ? Quelles sont les conséquences de leur existence en droit international ? Autant de questions sur lesquelles travaille Rosalie et auxquelles elle tente de nous apporter des réponses.
+                        Revenant d’abord sur son parcours et sur son inclination pour la recherche, Rosalie nous présente ensuite plusieurs causes de l’existence des « normes grises » telles que la source de la norme (une coutume ambiguë ou un traité évasif), la codification de la coutume, ou encore l’interprétation d’une norme par les États, les juges ou encore les traducteurs interprètes. Enfin, elle soulève plusieurs interrogations quant aux conséquences de l’existence des « normes grises » sur la place du juge en droit international, sur la sécurité juridique et la prévisibilité du droit mais aussi sur la qualité du système juridique.</p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
+                    
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-03-24">24/03/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep2.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 2 - Des programmes de recherche pour une application concrète du droit de la mer</a></h3>
+                        <p><strong>Gaëtan Balan</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_2" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Gaëtan Balan revient sur son parcours et sur son rôle au sein des différents programmes de recherche auxquels il a pu participer. Doctorant au sein du programme ERC Human Sea – Rendre la mer humaine, il nous présente les axes de recherche de cet ambitieux programme dirigé par Patrick Chaumette. Gaëtan a notamment travaillé sur le rôle de l’Union européenne et de ses États-membres dans la lutte contre les activités illicites en mer.<br>
+                        Intégré comme post-doctorant au programme de recherche MERCRO dirigé par Kiara Neri et financé par l’ANR, Gaëtan nous explique les enjeux de ce programme international qui s’intéresse à la superposition des régimes de police en mer et aux problématiques que cela peut engendrer quant à leur efficacité. Le programme a déjà établi une liste des normes internationales de police applicables en mer et un questionnaire destinés à la diffusion auprès des acteurs et utilisateurs des espaces maritimes.<br>
+                        Il nous parle également à la fin d’un de ces sujets de recherche actuel qu’il mène en collaboration avec Kristoffer Svensen, les mesures de polices mises en œuvre dans le cadre du deep sea mining.</p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
+    
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-04-07">07/04/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep3.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 3 - L’enfermement des passagers clandestins à bord des navires marchands</a></h3>
+                        <p><strong>Almodis Peyre</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_3" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Revenant d’abord sur son parcours et son rôle au sein du projet MERCRO, Almodis Peyre nous présente ensuite son sujet de thèse qui porte sur l’enfermement des passagers clandestins à bord des navires marchands. Son sujet interroge notamment sur la fonction du Droit quant aux pouvoirs des acteurs privés (capitaine, armateur, transporteur, assureur) qui ne sont plus uniquement les réceptacles de la loi mais qui en changent les usages. Au niveau international, la situation des passagers clandestins et leur consignation quasi-automatique soulève également des interrogations concernant les droits humains et la responsabilité des États dans la régulation des décisions des acteurs privés à bord des navires marchands.</p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
+    
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-04-21">21/04/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep4.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 4 - L'État pluridémotique, contribution à l'étude d'une nouvelle théorie de l'État</a></h3>
+                        <p><strong>Laurine Harbuta</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_4" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Laurine Harbuta revient avec nous sur son sujet de thèse qui porte sur l’État pluridémotique en droit constitutionnel. Après un parcours universitaire tourné vers le droit international, elle se concentre sur le droit constitutionnel français pour remettre en question la théorie de l’État-nation. Son sujet amène à s’interroger sur les droits reconnus aux différents peuples qui peuvent composer un État et sur le pluralisme juridique au sein d’un État.</p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
+    
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-05-05">05/05/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep5.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 5 - Le sort des minorités en droit international contemporain</a></h3>
+                        <p><strong>Liliana Haquin Sáenz</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_5" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet épisode, Liliana Haquin Sáenz, docteure en droit international, revient avec nous sur son sujet de thèse portant sur le sort réservé aux minorités en droit international. Le but de son étude était de démontrer qu'il existerait un droit à l'autonomie des minorités au niveau international. Définition d'une minorité, textes internationaux et régionaux de protection des minorités, protection juridictionnelle des minorités, autant de sujets abordés par Liliana au travers de divers exemples tels que les Kurdes, les Rohingyas ou les Roms.</p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
+    
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-05-19">19/05/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep6.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 6 - Les zones maritimes disputées</a></h3>
+                        <p><strong>Pierre Musy</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_6" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet épisode, Pierre Musy, doctorant en droit international, revient avec nous sur son sujet de thèse qui porte sur les zones maritimes disputées. Désormais spécialisé en droit de la mer et en contentieux international, Pierre étudie les enjeux théoriques et pratiques qui se jouent dans les zones maritimes disputées. Face aux lacunes du droit international de la mer, le but de son étude est d'établir un régime juridique applicable dans les zones maritimes disputées afin que les États aient un cadre d'action juridique. Son travail porte également sur la résolution des différends liés à ces disputes territoriales maritimes. Enfin, Pierre nous présente le projet de recherche ZOMAD qui a pour ambition de recenser toutes les zones maritimes disputées afin d'établir des fiches techniques à destinations des juridictions internationales.</p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
+    
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-06-02">02/06/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep7.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 7 - L'émergence en droit international d'un droit des peuples au soulèvement pacifique contre un système politique oppressif</a></h3>
+                        <p><strong>Criss Dongar</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_7" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet échange Criss-Dess Dongar revient avec nous sur son sujet de thèse à propos de l'émergence d'un droit des peuples au soulèvement pacifique contre un système poltiique oppressif. Origine, définition, classification de ce droit, Criss revient également sur les enjeux de sa thèse faisant largement référence au droit international des droits de l'homme. Il présente également les différences entre le droit au soulèvement pacifique, le droit des peuples à disposer d'eux-mêmes et le droit de résistance à l'oppression.</p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
+    
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-16-02">16/06/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep8.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 8 - L'arsenalisation de l'espace extra-atmosphérique</a></h3>
+                        <p><strong>Hugo Peter</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_8" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Hugo Peter, doctorant en droit spatial, nous présente ce qu'est le droit spatial. Il revient par la suite sur son sujet de thèse qui porte sur l'arsenalisation de l'espace extra-atmosphérique. Sources, enjeux, rôle des États et des organisaitons, importance de la définition et de la qualificaiton d'une arme extra-atmosphérique, il nous présente pourquoi selon lui l'arsenalisation de l'espace est dangereuse.</p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
+    
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-06-30">30/06/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep9.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 9 - MAPS - Migration and Asylum Policies Systems</a></h3>
+                        <p><strong>Kiara Neri</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_9" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet épisode, Madame Neri revient avec nous sur le réseau MAPS qui regroupe dix universités européennes dont l'Université Jean Moulin Lyon 3. En tant que référente au sein de l'Université, Madame Neri nous présente les axes de recherche, le fonctionnement du projet et la portée des recherches effectuées sur le thème du droit des migrations et des politiques d'asile. </p>
+                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
                 </div>
 
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-04-21">21/04/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep4.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 4 - L'État pluridémotique, contribution à l'étude d'une nouvelle théorie de l'État</a></h3>
-                    <p><strong>Laurine Harbuta</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_4" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Laurine Harbuta revient avec nous sur son sujet de thèse qui porte sur l’État pluridémotique en droit constitutionnel. Après un parcours universitaire tourné vers le droit international, elle se concentre sur le droit constitutionnel français pour remettre en question la théorie de l’État-nation. Son sujet amène à s’interroger sur les droits reconnus aux différents peuples qui peuvent composer un État et sur le pluralisme juridique au sein d’un État.</p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
-                </div>
-
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-05-05">05/05/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep5.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 5 - Le sort des minorités en droit international contemporain</a></h3>
-                    <p><strong>Liliana Haquin Sáenz</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_5" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet épisode, Liliana Haquin Sáenz, docteure en droit international, revient avec nous sur son sujet de thèse portant sur le sort réservé aux minorités en droit international. Le but de son étude était de démontrer qu'il existerait un droit à l'autonomie des minorités au niveau international. Définition d'une minorité, textes internationaux et régionaux de protection des minorités, protection juridictionnelle des minorités, autant de sujets abordés par Liliana au travers de divers exemples tels que les Kurdes, les Rohingyas ou les Roms.</p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
-                </div>
-
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-05-19">19/05/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep6.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 6 - Les zones maritimes disputées</a></h3>
-                    <p><strong>Pierre Musy</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_6" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet épisode, Pierre Musy, doctorant en droit international, revient avec nous sur son sujet de thèse qui porte sur les zones maritimes disputées. Désormais spécialisé en droit de la mer et en contentieux international, Pierre étudie les enjeux théoriques et pratiques qui se jouent dans les zones maritimes disputées. Face aux lacunes du droit international de la mer, le but de son étude est d'établir un régime juridique applicable dans les zones maritimes disputées afin que les États aient un cadre d'action juridique. Son travail porte également sur la résolution des différends liés à ces disputes territoriales maritimes. Enfin, Pierre nous présente le projet de recherche ZOMAD qui a pour ambition de recenser toutes les zones maritimes disputées afin d'établir des fiches techniques à destinations des juridictions internationales.</p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
-                </div>
-
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-06-02">02/06/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep7.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 7 - L'émergence en droit international d'un droit des peuples au soulèvement pacifique contre un système politique oppressif</a></h3>
-                    <p><strong>Criss Dongar</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_7" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet échange Criss-Dess Dongar revient avec nous sur son sujet de thèse à propos de l'émergence d'un droit des peuples au soulèvement pacifique contre un système poltiique oppressif. Origine, définition, classification de ce droit, Criss revient également sur les enjeux de sa thèse faisant largement référence au droit international des droits de l'homme. Il présente également les différences entre le droit au soulèvement pacifique, le droit des peuples à disposer d'eux-mêmes et le droit de résistance à l'oppression.</p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
-                </div>
-
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-16-02">16/06/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep8.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 8 - L'arsenalisation de l'espace extra-atmosphérique</a></h3>
-                    <p><strong>Hugo Peter</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_8" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Hugo Peter, doctorant en droit spatial, nous présente ce qu'est le droit spatial. Il revient par la suite sur son sujet de thèse qui porte sur l'arsenalisation de l'espace extra-atmosphérique. Sources, enjeux, rôle des États et des organisaitons, importance de la définition et de la qualificaiton d'une arme extra-atmosphérique, il nous présente pourquoi selon lui l'arsenalisation de l'espace est dangereuse.</p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
-                </div>
-
-                <!-- EPISODE -->
-                <div>
-                    <time datetime="2021-06-30">30/06/2021</time>
-                    <h3> <a href="pages/pageOfEpisode/ep9.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 9 - MAPS - Migration and Asylum Policies Systems</a></h3>
-                    <p><strong>Kiara Neri</strong></p>
-                    <span class="line"></span>
-                    <p id="podcastDescription_8" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">Dans cet épisode, Madame Neri revient avec nous sur le réseau MAPS qui regroupe dix universités européennes dont l'Université Jean Moulin Lyon 3. En tant que référente au sein de l'Université, Madame Neri nous présente les axes de recherche, le fonctionnement du projet et la portée des recherches effectuées sur le thème du droit des migrations et des politiques d'asile. </p>
-                    <span class="horizontalLineForSeparatePodcasts"></span>
+                <div id="season2">
+                    <!-- EPISODE -->
+                    <div>
+                        <time datetime="2021-11-26">26/11/2021</time>
+                        <h3> <a href="pages/pageOfEpisode/ep10.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>Episode 10 - L'influence de l'Union Européenne sur les processus d'intégration d'Afrique de l'Ouest </a></h3>
+                        <p><strong>Abdoulaye Sow</strong></p>
+                        <span class="line"></span>
+                        <p id="podcastDescription_10" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">
+                            Dans cet épisode, Abdoulaye Sow nous présente son sujet de thèse qui a porté sur l’influence de l’Union européenne sur les processus d’intégration en Afrique de l’Ouest. Influence à la fois active et passive, il nous questionne sur la pertinence pour les organisations d’intégration économique de l’ouest africain, notamment la CEDEAO et l’UEMOA, de reprendre le modèle communautaire européen. Il parle également de la relation entre l’Union africaine et ces sous-organisations régionales.
+                            Dans un second temps, Abdoulaye Sow revient sur le coup d’état qui a éclaté en Guinée au début du mois de septembre et les conséquences politiques et juridiques que cela a eu sur le pays et sur son implication dans les organisations régionales d’intégration économique. </p>                        <span class="horizontalLineForSeparatePodcasts"></span>
+                    </div>
                 </div>
             </div>
         </div>

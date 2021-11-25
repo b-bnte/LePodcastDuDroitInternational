@@ -100,6 +100,15 @@
             <pubDate>Wed, 30 June 2021 12:00:00 GMT</pubDate>
             <itunes:duration>22:53</itunes:duration>
         </item>
+
+        <item>
+            <guid>EP10_AS</guid>
+            <title>EP10 - Abdoulaye Sow - L'influence de l'Union Européenne sur les processus d'intégration d'Afrique de l'Ouest</title>
+            <description>Dans cet épisode, Abdoulaye Sow nous présente son sujet de thèse qui a porté sur l’influence de l’Union européenne sur les processus d’intégration en Afrique de l’Ouest. Influence à la fois active et passive, il nous questionne sur la pertinence pour les organisations d’intégration économique de l’ouest africain, notamment la CEDEAO et l’UEMOA, de reprendre le modèle communautaire européen. Il parle également de la relation entre l’Union africaine et ces sous-organisations régionales. Dans un second temps, Abdoulaye Sow revient sur le coup d’état qui a éclaté en Guinée au début du mois de septembre et les conséquences politiques et juridiques que cela a eu sur le pays et sur son implication dans les organisations régionales d’intégration économique. </description>
+            <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/EP10_AS.mp3" length="47362819" type="audio/mpeg"/>
+            <pubDate>Fri, 26 November 2021 12:00:00 GMT</pubDate>
+            <itunes:duration>49:20</itunes:duration>
+        </item>
     
     </channel>
 </rss>
