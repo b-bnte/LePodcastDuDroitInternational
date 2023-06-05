@@ -200,3 +200,21 @@ button {
     transform: translateY(-0.25em);
 }
 
+.raise_pressed_red {
+  box-shadow: 0 0.5em 0.5em -0.3em #721000;
+  border-color: #721000;
+  background-color: #721000;
+  color: #1c1c1c;
+  transform: translateY(-0.25em);
+}
+
+.raise_red:hover,
+.raise_red:focus {
+  box-shadow: 0 0.5em 0.5em -0.3em #721000;
+  border-color: #721000;
+  background-color: #721000;
+  color: #721000;
+  color: #1c1c1c;
+  transform: translateY(-0.25em);
+}
+

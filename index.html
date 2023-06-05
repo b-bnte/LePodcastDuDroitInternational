@@ -84,12 +84,13 @@
             <span class="vertical-line"></span>
             
             <div class="listOfPodcasts">
-                <div class="buttons">
+              <div class="buttons">
+                  <button id="btn_tht" class="raise_pressed_red" onclick="showSeason(this.id, 'tht')"> The Handmaid's <br> Tale et le DIP</button>
                     <button id="btn_season1" class="raise" onclick="showSeason(this.id, 'season1')"> Saison 1</button>
-                    <button id="btn_season2" class="raise_pressed" onclick="showSeason(this.id, 'season2')"> Saison 2</button>
-                </div>
+                    <button id="btn_season2" class="raise" onclick="showSeason(this.id, 'season2')"> Saison 2</button>
+              </div>
 
-                <div id="season1" style=display:none>
+                <div id="season1" style="display:none">
                     <!-- EPISODE -->
                     <div>
                         <time datetime="2021-03-10">10/03/2021</time>
@@ -184,7 +185,7 @@
                     </div>
                 </div>
 
-                <div id="season2">
+                <div id="season2" style="display:none">
                     <!-- EPISODE -->
                     <div>
                         <time datetime="2021-11-26">26/11/2021</time>
@@ -196,6 +197,27 @@
                             Dans un second temps, Abdoulaye Sow revient sur le coup d’état qui a éclaté en Guinée au début du mois de septembre et les conséquences politiques et juridiques que cela a eu sur le pays et sur son implication dans les organisations régionales d’intégration économique. </p>                        <span class="horizontalLineForSeparatePodcasts"></span>
                     </div>
                 </div>
+
+                <div id="tht">
+                  <!-- EPISODE -->
+                  <div>
+                      <time datetime="2023-06-05">05/06/2023</time>
+                      <h3> <a href="pages/pageOfEpisode/THT1.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>The Handmaid's Tale et le DIP - Gilead et le modèle théocratique</a></h3>
+                      <p><strong>Gaëtan Balan</strong></p>
+                      <span class="line"></span>
+                      <p id="podcastDescription_11" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">
+                        Épisode hors-série consacré à la diffusion d’une intervention du colloque intitulé « The Handmaid’s Tale et le Droit international public » qui s’est tenu en septembre 2022 à l’Université Jean Moulin de Lyon. </p>                        <span class="horizontalLineForSeparatePodcasts"></span>
+                  </div>
+
+                  <div>
+                    <time datetime="2023-06-05">05/06/2023</time>
+                    <h3> <a href="pages/pageOfEpisode/THT2.html"> <img class="logoTitlePodcast" src="images/icons/play-button.svg" alt=""/>The Handmaid's Tale et le DIP - Les droits fondamentaux des femmes et les discriminations de genre dans l'État de droit : quand la femme contribue à sa propre décadance</a></h3>
+                    <p><strong>Zina Yacoub</strong></p>
+                    <span class="line"></span>
+                    <p id="podcastDescription_12" class="podcastDescription_hide" onclick="showDescriptionPodcast(this.id)">
+                      Épisode hors-série consacré à la diffusion d’une intervention du colloque intitulé « The Handmaid’s Tale et le Droit international public » qui s’est tenu en septembre 2022 à l’Université Jean Moulin de Lyon. </p>                        <span class="horizontalLineForSeparatePodcasts"></span>
+                </div>
+              </div>
             </div>
         </div>
     </body>

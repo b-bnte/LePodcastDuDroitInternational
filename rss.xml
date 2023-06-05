@@ -109,6 +109,24 @@
             <pubDate>Fri, 26 November 2021 12:00:00 GMT</pubDate>
             <itunes:duration>49:20</itunes:duration>
         </item>
-    
+
+        <item>
+            <guid>THT1_GB</guid>
+            <title>Hors-série - Gaëtan Balan - Gilead et le modèle théocratique</title>
+            <description>Épisode hors-série consacré à la diffusion d’une intervention du colloque intitulé « The Handmaid’s Tale et le Droit international public » qui s’est tenu en septembre 2022 à l’Université Jean Moulin de Lyon. C’est un colloque que j’ai eu l’honneur d’organiser avec Rosalie Le Moing, docteure en droit international public, et Caroline Cornella, doctorante au Centre de droit international. Notre idée était de confronter l’œuvre The Handmaid’s Tale, ou La servante écarlate en français, à savoir les deux livres de Margaret Atwood et la série télévisée, avec le droit international public. Cette journée a été divisée en différents panels sur la forme de l’État et les libertés au sein de la République de Gilead, sur les conséquences de la proclamation de la République de Gilead et les sanctions économiques internationales et européennes, ou encore sur le droit de l’environnement et la sûreté nucléaire dans la République de Gilead, et enfin sur le droit international pénal notamment à propos du procès d’un certain commandant Waterford. En plus des enregistrements audio, vous pouvez retrouver les Actes du colloque publiés aux Cahiers de l’EDIEC sur le site internet de l’EDIEC.</description>
+            <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/THT1_GB.mp3" length="21361161" type="audio/mpeg"/>
+            <pubDate>Mon, 05 Jun 2023 12:00:00 GMT</pubDate>
+            <itunes:duration>22:15</itunes:duration>
+        </item>
+
+        <item>
+            <guid>THT2_ZY</guid>
+            <title>Hors-série - Zina Yacoub - Les droits fondamentaux des femmes et les discriminations de genre dans l'État de droit : quand la femme contribue à sa propre décadance</title>
+            <description>Épisode hors-série consacré à la diffusion d’une intervention du colloque intitulé « The Handmaid’s Tale et le Droit international public » qui s’est tenu en septembre 2022 à l’Université Jean Moulin de Lyon. C’est un colloque que j’ai eu l’honneur d’organiser avec Rosalie Le Moing, docteure en droit international public, et Caroline Cornella, doctorante au Centre de droit international. Notre idée était de confronter l’œuvre The Handmaid’s Tale, ou La servante écarlate en français, à savoir les deux livres de Margaret Atwood et la série télévisée, avec le droit international public. Cette journée a été divisée en différents panels sur la forme de l’État et les libertés au sein de la République de Gilead, sur les conséquences de la proclamation de la République de Gilead et les sanctions économiques internationales et européennes, ou encore sur le droit de l’environnement et la sûreté nucléaire dans la République de Gilead, et enfin sur le droit international pénal notamment à propos du procès d’un certain commandant Waterford. En plus des enregistrements audio, vous pouvez retrouver les Actes du colloque publiés aux Cahiers de l’EDIEC sur le site internet de l’EDIEC.</description>
+            <enclosure url="https://lepodcastdudroitinternational.fr/podcasts/THT2_ZY.mp3" length="20760971" type="audio/mpeg"/>
+            <pubDate>Mon, 05 Jun 2023 12:00:00 GMT</pubDate>
+            <itunes:duration>21:37</itunes:duration>
+        </item>
+
     </channel>
 </rss>
